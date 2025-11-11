@@ -303,12 +303,17 @@ nav a:hover {
 }
 
 .project-card .project-image {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    object-fit: cover;
-    background-image: url("https://placehold.co/100x100/orange/white?text=Image Placeholder");
+  background-image: url("https://placehold.co/100x100/orange/white?text=Image Placeholder");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  align-items: center;
+  width: 100%;
+  height: 250px; 
+  border-radius: 10px;
 }
+
 
 .project-card:hover {
     transform: translateY(-0.3125rem);
